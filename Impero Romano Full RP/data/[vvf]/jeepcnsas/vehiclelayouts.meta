@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+  <VehicleLayoutInfos>
+  <Item type="CVehicleLayoutInfo">
+			<Name>LAYOUT_BOAT_LIFEBOAT</Name>
+			<Seats>
+				<Item>
+					<SeatInfo ref="SEAT_BOAT_FRONT_LEFT" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_DEFENDER_FRONT_RIGHT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_BOAT_FRONT_RIGHT" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_SQUALO_FRONT_LEFT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_SPEED_REAR_LEFT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_SPEED_REAR_RIGHT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_LEFT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_RIGHT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_LEFT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_RIGHT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_3" />
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_LEFT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_RIGHT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_4" />
+					<SeatAnimInfo ref="SEAT_ANIM_LOW_FRONT_RIGHT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_4" />
+					<SeatAnimInfo ref="SEAT_ANIM_SWAT_RANGER_SIDE_LEFT" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_5" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_LIFEBOAT_STANDING" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_5" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_LIFEBOAT_STANDING" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_6" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_LIFEBOAT_STANDING" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_6" />
+					<SeatAnimInfo ref="SEAT_ANIM_BOAT_LIFEBOAT_STANDING" />
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_7" />
+					<SeatAnimInfo ref="SEAT_ANIM_RIOT_VAN_FRONT_LEFT" />
+				</Item>
+			</Seats>
+			<EntryPoints>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_BOAT_DEFENDER_FRONT_DRIVER" />
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_DINGHY_FRONT_RIGHT" />
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_LIFEBOAT_WARP_RIGHT" />
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_DINGHY_FRONT_RIGHT" />
+				</Item>
+			</EntryPoints>
+			<LayoutFlags>StreamAnims UseLeanSteerAnims DisableJackingAndBusting WarpInWhenStoodOnTop WarpIntoAndOut</LayoutFlags>
+			<BicycleInfo ref="NULL" />
+			<AnimRateSet ref="BOAT_ANIM_RATE_SET" />
+			<HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+			<SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+		</Item>
+  <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_VM90</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STD_HIGHWINDOW_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STD_HIGHWINDOW_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_RANGER_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_RANGER_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PRISON_BUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_RANGER_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_TRUCK_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_PRISON_BUS_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_PRISON_BUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_PRISON_BUS_REAR_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RANGER_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RANGER_FRONT_RIGHT" />
+        </Item>
+         <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RANGER_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_FRONT_RIGHT" />
+        </Item>
+       <Item>
+          <EntryPointInfo ref="ENTRY_POINT_VM90_MP_WARP_SIDE" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BUS_MP_WARP_SIDE" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims UseFinerAlignTolerance</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_truck</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	  <MaxXAcceleration value="4.00000" />
+	  <BodyLeanXApproachSpeed value="5.00000" />
+	  <BodyLeanXSmallDelta value="0.30000" />
+	  <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@truck@ds@idle_a</Item>
+		<Item>clipset@veh@truck@ds@idle_b</Item>
+		<Item>clipset@veh@truck@ds@idle_c</Item>
+		<Item>clipset@veh@truck@ds@idle_d</Item>
+		<Item>clipset@veh@truck@ds@idle_e</Item>
+	  </FirstPersonAdditiveIdleClipSets>
+	  <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@truck@ds@hit_wheel@idle_a</Item>
+		<Item>clipset@veh@truck@ds@hit_wheel@idle_b</Item>
+		<Item>clipset@veh@truck@ds@hit_wheel@idle_c</Item>
+	  </FirstPersonRoadRageClipSets>
+    </Item>
+  <Item type="CVehicleLayoutInfo">
+	  <Name>LAYOUT_HELI_NH90</Name>
+	  <Seats>
+		<!-- Pilot -->
+		<Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT" />
+        </Item>
+		<!-- copilot -->
+		<Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_HELI_CARGOBOB_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_HELI_CARGOBOB_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+	  </Seats>
+	  <EntryPoints>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_CARGOBOB_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_CARGOBOB_FRONT_RIGHT" />
+        </Item>
+       <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_MP_HELI_CARGOBOB_WARP_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_CARGOBOB_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_MP_HELI_CARGOBOB_WARP_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_CARGOBOB_REAR_RIGHT" />
+        </Item>
+	  </EntryPoints>
+	  <LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+	  <BicycleInfo ref="NULL" />
+	  <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+	  <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	</Item>
+	<Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_BOAT_ZODIAC</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_TROPIC_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_TROPIC_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_PASSENGER_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_PASSENGER_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_PASSENGER_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_PASSENGER_REAR_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_TROPIC_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_TROPIC_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_TROPIC_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_TROPIC_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_TROPIC_FRONTCLIMB_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_TROPIC_FRONTCLIMB_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_TROPIC_FRONTCLIMB_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_TROPIC_FRONTCLIMB_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_STD_STRETCH_MP_WARP_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STD_STRETCH_MP_WARP_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STD_STRETCH_MP_WARP_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STD_STRETCH_MP_WARP_RIGHT" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims DisableJackingAndBusting</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+	  <AnimRateSet ref="BOAT_ANIM_RATE_SET" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+ <Item type="CVehicleLayoutInfo">
+	  <Name>LAYOUT_HELI_ELIEI1</Name>
+	  <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_TITAN_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_MP_HELI_CARGOBOB_WARP_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_CARGOBOB_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_MP_HELI_CARGOBOB_WARP_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_CARGOBOB_REAR_RIGHT" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+  </VehicleLayoutInfos>
+  <VehicleEntryPointInfos>
+   <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_VM90_MP_WARP_SIDE</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>        
+		<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+		<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />		
+		<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_3" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_4" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_5" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_6" />
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_6" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>MPWarpInOut</Flags>
+      <BlockJackReactionSides />
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+		<Name>ENTRY_POINT_BOAT_DEFENDER_FRONT_DRIVER</Name>
+		<DoorBoneName />
+		<SecondDoorBoneName />
+		<DoorHandleBoneName />
+		<WindowId>INVALID</WindowId>
+		<VehicleSide>SIDE_RIGHT</VehicleSide>
+		<AccessableSeats>
+			<Item ref="SEAT_BOAT_FRONT_LEFT" />
+		</AccessableSeats>
+		<VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_DEFENDER_DRIVER" />
+		<Flags />
+		<BlockJackReactionSides />
+	</Item>
+	<Item type="CVehicleEntryPointInfo">
+		<Name>ENTRY_POINT_LIFEBOAT_WARP_RIGHT</Name>
+		<DoorBoneName />
+		<SecondDoorBoneName />
+		<DoorHandleBoneName />
+		<WindowId>INVALID</WindowId>
+		<VehicleSide>SIDE_RIGHT</VehicleSide>
+		<AccessableSeats>
+			<Item ref="SEAT_BOAT_FRONT_LEFT" />
+			<Item ref="SEAT_BOAT_FRONT_RIGHT" />
+			<Item ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+			<Item ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_3" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_4" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_5" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_6" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_4" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_5" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_6" />
+			<Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_7" />
+		</AccessableSeats>
+		<VehicleExtraPointsInfo ref="NULL" />
+		<Flags>MPWarpInOut</Flags>
+		<BlockJackReactionSides />
+	</Item>
+	</VehicleEntryPointInfos>
+	<VehicleSeatAnimInfos>	
+	<Item type="CVehicleSeatAnimInfo">
+			<Name>SEAT_ANIM_BOAT_DEFENDER_FRONT_RIGHT</Name>
+			<DriveByInfo ref="DRIVEBY_BOAT_SPEED_FRONT_LEFT" />
+			<InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BOAT_TROPIC_FRONT_LEFT" />
+			<PanicClipSet />
+			<AgitatedClipSet />
+			<DuckedClipSet>clipset@veh@boat@speed@ds@idle_duck</DuckedClipSet>
+			<FemaleClipSet />
+			<LowLODIdleAnim>BOAT_DRIVER</LowLODIdleAnim>
+			<SeatAmbientContext />
+			<InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+			<SeatAnimFlags>UseBoatInVehicleAnims PreventShuffleJack</SeatAnimFlags>
+			<SteeringSmoothing value="0.050000" />
+			<ExitToAimInfoName />
+			<MaleGestureClipSetId />
+			<FemaleGestureClipSetId />
+		</Item>
+	<Item type="CVehicleSeatAnimInfo">
+			<Name>SEAT_ANIM_BOAT_LIFEBOAT_STANDING</Name>
+			<DriveByInfo ref="DRIVEBY_BOAT_MARQUIS_FRONT_LEFT" />
+			<InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BOAT_PREDATOR_FRONT_RIGHT" />
+			<PanicClipSet />
+			<AgitatedClipSet />
+			<DuckedClipSet>clipset@veh@boat@predator@ps@idle_duck</DuckedClipSet>
+			<FemaleClipSet />
+			<LowLODIdleAnim>BOAT_STANDING</LowLODIdleAnim>
+			<SeatAmbientContext />
+			<InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+			<SeatAnimFlags>CanDetachViaRagdoll RagdollWhenVehicleUpsideDown UseBoatInVehicleAnims PreventShuffleJack</SeatAnimFlags>
+			<SteeringSmoothing value="0.030000" />
+			<ExitToAimInfoName />
+			<MaleGestureClipSetId />
+			<FemaleGestureClipSetId />
+		</Item>
+	</VehicleSeatAnimInfos>	
+	</CVehicleMetadataMgr>
